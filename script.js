@@ -322,22 +322,21 @@
         $(document.body).append($stage);
         $stage.css({width: '100%', height: '100%'});
       
-        $restart = createDiv('restart');
+        $restart = createDiv('restart', 'follow');
         $stage.append($restart);
+        $stage.append($follow);
         $restart.css({width: 100, height: 40, top: '50%', left: '50%', marginLeft: -50, marginTop: -20, letterSpacing: '1px', 
                       background: Colors.white, color: Colors.blue, fontSize: 22, textAlign: 'center', lineHeight: '40px',
                       cursor: 'pointer', opacity: 0});
-        $restart.html('RESTART');
-        $restart.on('click', 'restart');
-        $restart.hide();
-        $follow.hide();
-        $follow = createDiv('follow');
-        $stage.after($follow);
         $follow.css({width: 100, height: 40, top: '60%', left: '50%', marginLeft: -50, marginTop: -40, letterSpacing: '1px', 
                       background: Colors.white, color: Colors.blue, fontSize: 22, textAlign: 'center', lineHeight: '40px',
                       cursor: 'pointer', opacity: 0});
         $follow.html('GET UPDATES');
         $follow.on('click', "[href='https://twitter.com/mektball']");
+        $restart.html('RESTART');
+        $restart.on('click', restart);
+        $restart.hide();
+        $follow.hide();
 
         var velocityScene = new VelocityScene();
         var velocityMask = new VelocityMask();
