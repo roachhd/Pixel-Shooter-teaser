@@ -5,7 +5,7 @@
     /* Colors, prefix finder for transforms */
     var Colors = {
         white: '#fefefe',
-        blue: '#40cacc'
+        blue: '#f0147f'
     }
 
     var prefix = (function () {
