@@ -327,7 +327,8 @@
         $restart.css({width: 100, height: 40, top: '50%', left: '50%', marginLeft: -50, marginTop: -20, letterSpacing: '1px', 
                       background: Colors.white, color: Colors.blue, fontSize: 22, textAlign: 'center', lineHeight: '40px',
                       cursor: 'pointer', opacity: 0});
-        $restart.html('COMING SOON');
+        $restart.html('RESTART');
+        $("p").after("COMING SOON");
         $restart.on('click', restart);
         $restart.hide();
 
