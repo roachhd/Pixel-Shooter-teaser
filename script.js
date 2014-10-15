@@ -328,13 +328,13 @@
                       background: Colors.white, color: Colors.blue, fontSize: 22, textAlign: 'center', lineHeight: '40px',
                       cursor: 'pointer', opacity: 0});
         $follow = createDiv('follow');
-        $stage.append($follow);
-        $restart.css({width: 100, height: 40, top: '50%', left: '50%', marginLeft: -50, marginTop: -20, letterSpacing: '1px', 
+        $stage.after($follow);
+        $follow.css({width: 100, height: 40, top: '50%', left: '50%', marginLeft: -50, marginTop: -20, letterSpacing: '1px', 
                       background: Colors.white, color: Colors.blue, fontSize: 22, textAlign: 'center', lineHeight: '40px',
                       cursor: 'pointer', opacity: 0});
-        $restart.html('GET UPDATES');
-        $restart.on('click', "[href='https://twitter.com/mektball']");
-        $restart.hide();
+        $follow.html('GET UPDATES');
+        $follow.on('click', "[href='https://twitter.com/mektball']");
+        $follow.hide();
 
         var velocityScene = new VelocityScene();
         var velocityMask = new VelocityMask();
