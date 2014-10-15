@@ -11,6 +11,12 @@ body {
     font-family: 'Anton', sans-serif;
     overflow: hidden;
 }
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
