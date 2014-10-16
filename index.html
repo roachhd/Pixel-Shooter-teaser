@@ -16,6 +16,14 @@
     </div>
     <div>
         <a class="sp-circle-link" href="https://twitter.com/mektball" target="_blank">FOLLOW</a>
+    <a class="sp-circle-link" target="_blank" href="http://www.example.com" id="myLink">link</a>
+    <script>
+        document.getElementById("myLink").onclick = function(){
+            var winPop = window.open(this.href);
+            return false;
+        }
+    </script>
+
     </div>
 </body>
 </html>
