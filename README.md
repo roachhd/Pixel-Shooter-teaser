@@ -15,6 +15,6 @@ Add a download / choose your platform button when game is ready
 
 ### link for for [WIP demo](http://htmlpreview.github.io/?https://github.com/roachhd/Pixel-Shooter-teaser/blob/wip/index.html) - WIP branch 
 
-### this branch [Site](https://github.com/roachhd/Pixel-Shooter-teaser/blob/site/index.html)
+### this branch [Site](http://htmlpreview.github.io/?https://github.com/roachhd/Pixel-Shooter-teaser/blob/site/index.html)
 
 Ciao for now
