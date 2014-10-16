@@ -17,6 +17,11 @@ a {
 	text-decoration: none;
 }
 
+button{
+	color: #fff;
+	text-decoration: none;
+}
+
 .sp-circle-link {
 	position: absolute;
 	left: 50%;
