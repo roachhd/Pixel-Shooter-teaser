@@ -1,7 +1,7 @@
 Pixel-Shooter-teaser
 ====================
 
-######Check out the [Teaser]() for a my new game Pixel Shooter - just a temp name 
+######Check out the [Teaser]() for a my new game Pixel Shooter - master branch
 
 
 *Site uses the awesome [Velocity](http://julian.com/research/velocity/)*
@@ -13,6 +13,8 @@ Also want to add an entry site button for when promo site is ready
 
 Add a download / choose your platform button when game is ready
 
-### link for for [WIP demo](http://htmlpreview.github.io/?https://github.com/roachhd/Pixel-Shooter-teaser/blob/wip/index.html)
+### link for for [WIP demo](http://htmlpreview.github.io/?https://github.com/roachhd/Pixel-Shooter-teaser/blob/wip/index.html) - WIP branch 
+
+### this branch [Site](https://github.com/roachhd/Pixel-Shooter-teaser/blob/site/index.html)
 
 Ciao for now
