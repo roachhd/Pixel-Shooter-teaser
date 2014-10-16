@@ -1,54 +1,15 @@
 * {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+html, body {
+  margin: 0; padding: 0;
 }
 
 body {
-    background: #2e2e2e;
-    font-family: 'Anton', sans-serif;
-    overflow: hidden;
+  overflow: hidden;
 }
 
-a {
-	color: #fff;
-	text-decoration: none;
-}
-
-button{
-	color: #fff;
-	text-decoration: none;
-}
-
-.sp-circle-link {
-	position: absolute;
-	left: 50%;
-	bottom: 100px;
-	margin-left: -50px;
-	text-align: center;
-	line-height: 80px;
-	width: 80px;
-	height: 80px;
-	background: #fff;
-	color: #f0147f;
-	font-size: 25px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-animation: fadeInRotate 1s linear 18s backwards;
-	-moz-animation: fadeInRotate 1s linear 18s backwards;
-	-ms-animation: fadeInRotate 1s linear 16s backwards;
-	animation: fadeInRotate 1s linear 18s backwards;
-	-webkit-transform: scale(1) rotate(0deg);
-	-moz-transform: scale(1) rotate(0deg);
-	-o-transform: scale(1) rotate(0deg);
-	-ms-transform: scale(1) rotate(0deg);
-	transform: scale(1) rotate(0deg);
-}
-
-.sp-circle-link:hover {
-	background: #5b8083;
-	color: #fff;
+div {
+  position: absolute;
 }
