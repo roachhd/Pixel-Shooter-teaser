@@ -320,7 +320,7 @@
     function init() {
         $stage = createDiv('stage');
         $(document.body).append($stage);
-        $stage.css({width: '100%', height: '100%'});
+        $stage.css({width: '50%', height: '50%'});
       
         $restart = createDiv('restart');
         $stage.append($restart);
